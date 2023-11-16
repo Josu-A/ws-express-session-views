@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 // Access the session as req.session
-app.get('/', function(req, res, next) {
+router.get('/', function(req, res, next) {
     if (req.session.views) {
         req.session.views++
         res.setHeader('Content-Type', 'text/html')
@@ -13,4 +13,6 @@ app.get('/', function(req, res, next) {
         req.session.views = 1
         res.end('welcome to the session demo. refresh!')
     }
-})
+});
+
+module.exports = router;

@@ -4,9 +4,9 @@ const path = require('path');
 const session = require('express-session');
 const logger = require('morgan');
 
-const indexRouter = require('./router/index');
+const indexRouter = require('./routes/index');
 
-const app = express()
+const app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
