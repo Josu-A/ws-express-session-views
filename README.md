@@ -37,21 +37,27 @@ npm start
 Portu zehatz batean hasieratzeko, x portu zenbakia izanik:
 
 <details><summary>Linux / MacOS</summary>
+
 ```bash
 PORT=x npm start
 ```
+
 </details>
 
 <details><summary>Windows Command Prompt</summary>
+
 ```cmd
 set PORT=x & npm start
 ```
+
 </details>
 
 <details><summary>Windows PowerShell</summary>
+
 ```ps
 $env:PORT='x'; npm start
 ```
+
 </details>
 
 ### Debuging moduan hasieratu
@@ -59,19 +65,25 @@ $env:PORT='x'; npm start
 Aplikazioak debug mezuak kontsolan idazteko
 
 <details><summary>Linux / MacOS</summary>
+
 ```bash
 DEBUG=session-views:* npm start
 ```
+
 </details>
 
 <details><summary>Windows Command Prompt</summary>
+
 ```cmd
 set DEBUG=session-views:* & npm start
 ```
+
 </details>
 
 <details><summary>Windows PowerShell</summary>
+
 ```ps
 $env:DEBUG='session-views:*'; npm start
 ```
+
 </details>
