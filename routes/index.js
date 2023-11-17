@@ -9,7 +9,6 @@ router.get('/', function(req, res) {
     else {
         req.session.views = 1;
     }
-    console.log(req.session.views);
     res.render('index', {
         views: req.session.views,
         maxAge: req.session.cookie.maxAge
