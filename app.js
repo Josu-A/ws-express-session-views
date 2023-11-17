@@ -19,7 +19,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 const sess = {
     secret: 'ausazko hitz multzoa',
-    cookie: {}
+    resave: false,
+    saveUninitialized: false,
+    cookie: {
+        maxAge: 2*60*1000
+    }
 }
 app.use(session(sess))
 

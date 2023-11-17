@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="autho" content="Josu Aguinaga">
+    <meta name="description" content="WS ikasgaiko Session Views ariketa">
+    <title>Session views</title>
+</head>
+<body>
+    <header>
+        <h1>Session Views</h1>
+    </header>
+    <main>
+        <% if (views === 1) {%>
+        <p>Welcome to the session demo. Refresh!</p>
+        <% } else { %>
+        <p>Views: <%= views %></p>
+        <p>Expires in: <%= maxAge / 1000 %>s </p>
+        <% } %>
+    </main>
+</body>
+</html>
