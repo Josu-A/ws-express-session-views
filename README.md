@@ -17,7 +17,7 @@ Biltegia klonatu:
 
 ```bash
 git clone https://github.com/Josu-A/ws-express-session-views.git
-cd ws-exoress-session-views
+cd ws-express-session-views
 ```
 
 npm dependenziak instalatu:
